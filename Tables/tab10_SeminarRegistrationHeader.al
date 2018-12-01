@@ -260,6 +260,13 @@ table 50110 "CSD Seminar Reg. Header"
         {
         }
 
+        // Lab 9
+        field(40; "No. Printed"; Integer)
+        {
+            Caption = 'No. Printed';
+            Editable = false;
+        }
+        // lab 9
     }
 
     keys
