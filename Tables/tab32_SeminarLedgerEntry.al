@@ -6,6 +6,10 @@ table 50132 "CSD Seminar Ledger Entry"
 
     Caption = 'Seminar Ledger Entry';
 
+    //Lab 8.2-3
+    LookupPageId = "CSD Seminar Ledger Entries";
+    DrillDownPageId = "CSD Seminar Ledger Entries";
+    //Lab 8.2-3
     fields
     {
         field(1; "Entry No."; Integer)
@@ -157,6 +161,12 @@ table 50132 "CSD Seminar Ledger Entry"
         key(Key1; "Entry No.")
         {
         }
+        // lab 8.2
+        key(Key2; "Document No.", "Posting Date")
+        {
+        }
+        // lab 8.2
+
     }
 
     fieldgroups
